@@ -12,7 +12,7 @@ end
 
 def assign_rooms(badges)
   badges.each_index do |x|
-    return "Hello, #{x}! You'll be assigned to room #{index + 1}!"
+    return "Hello, #{x}! You'll be assigned to room #{i+ 1}!"
   end
 end
   
