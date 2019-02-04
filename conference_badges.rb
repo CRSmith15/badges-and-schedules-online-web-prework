@@ -12,5 +12,5 @@ end
 
 def assign_rooms(badges)
   badges.each do |x|
-    
+    return "Hello, #{x}! You'll be assigned to room #{index"
   
