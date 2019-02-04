@@ -10,9 +10,9 @@ def batch_badge_creator(attendees)
   return arr
 end
 
-def assign_rooms(badges)
-  badges.each_index do |x|
-    return "Hello, #{x}! You'll be assigned to room #{i+ 1}!"
+def assign_rooms(attendees)
+  attendees.each_index do |x|
+    return "Hello, #{x}! You'll be assigned to room !"
   end
 end
   
