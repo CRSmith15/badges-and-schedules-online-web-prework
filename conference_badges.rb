@@ -15,5 +15,6 @@ def assign_rooms(attendees)
   attendees.each_index do |x|
     arr << "Hello, #{attendees}! You'll be assigned to room #{x+1}!"
   end
+  arr 
 end
   
