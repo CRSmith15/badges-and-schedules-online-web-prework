@@ -7,7 +7,7 @@ def batch_badge_creator(name)
   end
 
 def assign_rooms(name)
-  name.collect.with_index {|x, index|  "Hello, #{x}! You'll be assigned to room #{index+1}!"}
+  name.collect.with_index {|x, i|  "Hello, #{x}! You'll be assigned to room #{i+1}!"}
   end
 
 def printer(name)
