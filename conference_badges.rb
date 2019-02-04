@@ -12,7 +12,7 @@ end
 
 def assign_rooms(attendees)
   attendees.each_index do |x|
-    return "Hello, #{x}! You'll be assigned to room !"
+    return "Hello, ! You'll be assigned to room #{x+1}!"
   end
 end
   
