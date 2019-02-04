@@ -11,6 +11,6 @@ def assign_rooms(name)
   end
 
 def printer(name)
-  puts batch_badge_creator(name).join
+  batch_badge_creator(name)
   
 end
